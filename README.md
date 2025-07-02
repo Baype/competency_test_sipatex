@@ -69,19 +69,24 @@ Install dependencies frontend (TailwindCSS dan Vite):
 ```
 npm install
 ```
-### 6. Migrasi Database
+### 6. Generate Application Key
+Generate key Laravel untuk keamanan aplikasi:
+```
+php artisan key:generate
+```
+### 7. Migrasi Database
 Jalankan migrasi untuk membuat tabel-tabel database:
 ```
 php artisan migrate
 ```
-### 7. Seed Database
+### 8. Seed Database
 Isi database dengan data contoh untuk memudahkan pengisian data racikan obat:
 ```
 php artisan db:seed --class=DatabaseSeeder
 ```
 Seeder ini akan mengisi tabel user, pasien, obat, dan signa.
 
-### 8. Jalankan Development Server
+### 9. Jalankan Development Server
 Untuk menjalankan backend Laravel dan frontend TailwindCSS secara bersamaan, jalankan perintah berikut:
 ```
 npm run dev
@@ -92,7 +97,7 @@ Atau bisa dijalankan terpisah menggunakan command
 ```
 php artisan serve
 ```
-### 9. Akses Aplikasi
+### 10. Akses Aplikasi
 Buka browser dan akses URL berikut:
 ```
 http://localhost:8000
