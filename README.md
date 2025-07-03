@@ -103,3 +103,12 @@ Buka browser dan akses URL berikut:
 http://localhost:8000
 ```
 Aplikasi Laravel v12 untuk pengelolaan obat sudah siap digunakan.
+
+### NOTE :
+Akses akun secara default yang sudah dilakukan pada seeding data rincian nya sebagai berikut:
+```
+email : admin@gmail.com
+password : 123
+```
+
+Tetapi jika ingin mendaftar akun baru juga dapat dilakukan pada menu register.
